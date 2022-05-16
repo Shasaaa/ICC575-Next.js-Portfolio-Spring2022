@@ -1,0 +1,18 @@
+.btn {
+    background-color: rgb(104, 171, 209);
+    padding: .5rem 1rem;
+    border: 0;
+    margin-right: 5px;
+    color: rgb(253, 253, 253);
+    font-family: Arial;
+    font-weight: bold;
+    text-transform: uppercase;
+    &.primary {
+        background-color: rgb(127, 168, 191);
+    }
+    &.secondary {
+        background-color: rgb(176, 198, 230);
+        border: 1px solid rgb(0, 0, 0);
+    }
+}// .btn parent class end
+
