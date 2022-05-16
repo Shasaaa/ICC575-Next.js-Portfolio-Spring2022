@@ -6,7 +6,7 @@ import Logo from './Logo'
 import Nav from './Nav'
 import Row from './Row'
 import NavOverlay from './NavOverlay'
-import ButtonUI from './ButtonUI'
+import ButtonUI from './ButtonUI.js'
 
 import styles from './header.module.scss'
 
