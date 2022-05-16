@@ -5,8 +5,8 @@ import Container from './Container'
 import Logo from './Logo'
 import Nav from './Nav'
 import Row from './Row'
-import ButtonUI from './ButtonUI'
 import NavOverlay from './NavOverlay'
+import ButtonUI from './ButtonUI'
 
 import styles from './header.module.scss'
 
