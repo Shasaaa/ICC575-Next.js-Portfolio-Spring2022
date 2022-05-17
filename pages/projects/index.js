@@ -6,7 +6,7 @@ import Row from '../../components/Row'
 import Col from '../../components/Col'
 
 import Image from 'next/image'
-import Link from 'next/Link'
+import Link from 'next/link'
 
 import { getProjects } from '../../lib/api';
 

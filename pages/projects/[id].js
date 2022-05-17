@@ -4,7 +4,7 @@ import Layout from "../../components/Layout"
 import Paragraph from "../../components/Paragraph";
 
 import Image from 'next/image'
-import Link from 'next/Link'
+import Link from 'next/link'
 
 import { 
     getAllProjectSlugs,
