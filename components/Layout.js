@@ -1,15 +1,14 @@
 import { Fragment } from 'react'
 import Header from './Header'
 import Footer from './Footer'
-
-import styles from './layout.module.scss'
+import Main from './Main'
 
 export default function Layout({ children }) {
     return <Fragment>
         <Header />
-        <main className={styles.container}>
+        <Main>
             {children}
-        </main>
+        </Main>
         <Footer />
     </Fragment>
 }
