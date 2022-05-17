@@ -4,6 +4,7 @@ import Layout from "../../components/Layout"
 import Paragraph from "../../components/Paragraph";
 
 import Image from 'next/image'
+import Link from 'next/link'
 
 const ProjectOnePage = () => {
     return <Layout>
@@ -17,6 +18,11 @@ const ProjectOnePage = () => {
             />
             <Heading level="1">Project 1 Titile</Heading>
             <Paragraph>This is a description about my project.</Paragraph>
+            <Link href="/">
+                <a>
+                    Back to Homepage
+                </a>
+            </Link>
         </Container>
     </Layout>
 }
