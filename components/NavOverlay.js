@@ -1,4 +1,4 @@
-import ButtonUI from './ButtonUI.js'
+import ButtonUI from './ButtonUI'
 import styles from './navoverlay.module.scss'
 
 const NavOverlay = ({ closeHandler }) => {
